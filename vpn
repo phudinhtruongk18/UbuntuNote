@@ -1,5 +1,5 @@
 https://notthebe.ee/blog/creating-your-own-vpn/
-https://github.com/angristan/openvpn-install
+https://github.com/angristan/openvpn-install/blob/master/openvpn-install.sh
 windown
 '''
 PS C:\> Add-WindowsCapability -Online -Name OpenSSH.Client*
