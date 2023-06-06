@@ -1,0 +1,11 @@
+https://notthebe.ee/blog/creating-your-own-vpn/
+
+windown
+'''
+PS C:\> Add-WindowsCapability -Online -Name OpenSSH.Client*
+ssh-keygen -t rsa -b 4096
+'''
+
+apt-get update && apt-get upgrade
+useradd -G sudo -m wolfgang -s /bin/bash
+passwd wolfgang
