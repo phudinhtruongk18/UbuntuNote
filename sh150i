@@ -1,8 +1,0 @@
-#vps k can
-#ssh-keygen -t rsa -b 4096
-
-#client
-ssh-copy-id root@174.138.29.113
-
-# heavy
-du -aBM 2>/dev/null | sort -nr | head -n 50 | more
