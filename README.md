@@ -19,10 +19,13 @@ du -aBM 2>/dev/null | sort -nr | head -n 50 | more
 ```
 
 ### change ssh setting
+```bash
 vi /etc/ssh/sshd_config
 sudo systemctl restart ssh
+```
 
 ### port
+```bash
 ufw allow 22
 ufw status
-
+```
