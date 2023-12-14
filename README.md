@@ -18,4 +18,11 @@ ssh-copy-id root@174.138.29.113 -p 22
 du -aBM 2>/dev/null | sort -nr | head -n 50 | more
 ```
 
+### change ssh setting
+vi /etc/ssh/sshd_config
+sudo systemctl restart ssh
+
+### port
+ufw allow 22
+ufw status
 
