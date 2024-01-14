@@ -22,7 +22,7 @@ du -aBM 2>/dev/null | sort -nr | head -n 50 | more
 ```bash
 vi /etc/ssh/sshd_config
 '
-Port 69
+Port 69 # ufw allow 69/tcp
 PasswordAuthentication no
 PermitRootLogin no
 '
