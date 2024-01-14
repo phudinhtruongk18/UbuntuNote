@@ -21,7 +21,17 @@ du -aBM 2>/dev/null | sort -nr | head -n 50 | more
 ### change ssh setting
 ```bash
 vi /etc/ssh/sshd_config
+'
+Port 69
+PasswordAuthentication no
+PermitRootLogin no
+'
 sudo systemctl restart ssh
+```
+
+### check auth log
+```bash
+sudo cat /var/log/auth.log
 ```
 
 ### port
