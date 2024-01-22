@@ -10,7 +10,7 @@ $ sudo bash openvpn-install.sh
 
 ### get ssh key
 ```bash
-ssh-copy-id root@174.138.29.113 -p 22
+ssh-copy-id -p 22 root@174.138.29.113 
 ```
 
 ### heavy
