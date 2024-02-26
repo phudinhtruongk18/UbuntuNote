@@ -13,6 +13,12 @@ $ sudo bash openvpn-install.sh
 ssh-copy-id -p 22 root@ip 
 ```
 
+### ssh copy
+```bash
+scp -P 22 username@b:/path/to/file /path/to/destination
+```
+
+
 ### heavy
 ```bash
 du -aBM 2>/dev/null | sort -nr | head -n 50 | more
@@ -38,4 +44,10 @@ sudo cat /var/log/auth.log
 ```bash
 ufw allow 22
 ufw status
+```
+
+# zip 
+```bash
+zip -r foo.zip .
+unzip file.zip
 ```
