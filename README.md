@@ -13,6 +13,12 @@ $ sudo bash openvpn-install.sh
 ssh-copy-id -p 22 root@ip 
 ```
 
+sudoers
+```bash
+vi /etc/sudoers
+# username ALL=(ALL:ALL) ALL
+```
+
 ### ssh copy
 ```bash
 scp -P 22 username@b:/path/to/file /path/to/destination
