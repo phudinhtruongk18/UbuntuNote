@@ -15,8 +15,10 @@ ssh-copy-id -p 22 root@ip
 
 sudoers
 ```bash
-vi /etc/sudoers
-# username ALL=(ALL:ALL) ALL
+sudo visudo -f /etc/sudoers # username ALL=(ALL:ALL) ALL
+
+adduser bill sudo
+deluser bill sudo
 ```
 
 ### ssh copy
