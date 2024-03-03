@@ -8,7 +8,7 @@ $ sudo bash openvpn-install.sh
 ```
 
 
-### get ssh key
+### get ssh key (ensure that you already have ssh keys)
 ```bash
 ssh-copy-id -p 22 root@ip 
 ```
